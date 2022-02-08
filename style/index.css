@@ -1,0 +1,64 @@
+ body {  
+    background: #e6e6e6;  
+ }  
+        
+.showSlide {  
+    display: none  
+}  
+
+.showSlide img {  
+    width: 100%; 
+    height: 600px; 
+    text-align: center;
+}  
+
+.leftNavigationControl {  
+    position: absolute;  
+    top: 40%;  
+    height:80px;
+    background-color: white;  
+    left: 2%;
+}  
+        
+.rightNavigationControl {  
+    position: absolute;  
+    top: 40%;  
+    height:80px; 
+    left: 92%; 
+    background-color: white;  
+}
+           
+.leftNavigationControl:hover, .rightNavigationControl:hover {  
+    background-color: grey;  
+}  
+        
+.heading {
+    color: #EC7063 ;
+    text-align: center; 
+    font-size: 50px; 
+    margin:5px;
+    font-family: cursive;
+}
+
+.active {  
+    background-color: #717171;  
+}  
+
+@media only screen and (max-device-width: 480px) {
+    .leftNavigationControl {  
+        position: absolute;  
+        top: 20%;  
+        height:80px;
+        background-color: white;  
+        left: 2%;
+    }  
+            
+    .rightNavigationControl {  
+        position: absolute;  
+        top: 20%;  
+        height:80px; 
+        left: 90%; 
+        background-color: white;  
+    }
+}
+     
